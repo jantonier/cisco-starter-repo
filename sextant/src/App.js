@@ -1,8 +1,8 @@
-import { useState, React } from 'react';
+import { React } from 'react';
 import Banner from './components/Banner';
-import Cardss from './components/Cardss';
 import CardGroup from 'react-bootstrap/CardGroup'
 import IpRetreiver from './components/IpRetreiver';
+import LatencyCalculator from './components/LatencyCalculator';
 
 
 function App() {
@@ -19,7 +19,9 @@ function App() {
         <CardGroup className='justify-center space-x-1' >
           <IpRetreiver data="4" />
           <IpRetreiver data="6" />
+          <LatencyCalculator/>
         </CardGroup>
+        
 
       </div>
     </div>

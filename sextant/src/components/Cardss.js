@@ -1,13 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import '@coreui/coreui/dist/css/coreui.min.css'
-// import { Alert } from '@coreui/react';
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import doggy from '../assets/doggy.jpg'
 
 
 function Cardss({ data }) {
-    console.log(data);
     return (
         <div>
             <Card className='p-6 max-w-sm mx-auto bg-slate-600 rounded-xl shadow-lg flex items-center' style={{ width: '18rem' }}>
